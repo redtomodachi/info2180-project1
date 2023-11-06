@@ -9,3 +9,163 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-top: 0;
+}
+header div.container 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header div.container nav ul
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    text-align: right;
+    list-style-type: none;
+    
+}
+
+header div.container nav ul li
+{
+    margin: 10px;
+}
+a
+{
+    text-decoration: none;
+}
+section.overview-hero div.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+section.overview-hero div.container div.overview-hero-image img
+{
+    padding-right: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+section.overview-hero div.container div.overview-hero-text
+{
+    padding-right: 150px;
+}
+
+section.learn-about div.container div.cards
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+section.learn-about h2
+{
+    font-size: 24px;
+}
+
+section.learn-about div.container div.cards div.card
+{
+    /*padding-top: 50px;*/
+    text-align: center;
+    width: 300px;
+}
+
+section.learn-about div.container div.cards img
+{  
+    width: 200px;
+    height: 200px;
+}
+
+section.testing
+{
+    margin-top: 50px;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+section.testing div.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+}
+section.testing div.container div.testing-desciption
+{
+    inline-size: 400px;
+    padding-right: 200px;
+}
+
+section.testing div.container div.cta {
+    width: 110px;
+    height: 40px;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;   
+    justify-content: center;
+    /*background-color: #48BB78;*/
+    border-radius: 10px;
+    
+}
+section.stories div.container article
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.stories div.container article img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+section.newsletter
+{
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+section.newsletter div.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.newsletter div.container form
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+footer
+{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
